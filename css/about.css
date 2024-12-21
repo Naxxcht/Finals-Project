@@ -1,0 +1,201 @@
+:root{
+    --color: #232323;
+    --text-color: #ffffff;
+    --font: "Rubik", serif;
+    --sub-text-color: #D98D11;
+    --red: #FF1500;
+    --light-bg: #605f5f;
+    --box-color: #000000;
+    --box: #160e00;
+}
+.about{
+    width: 100%;
+}
+.about-container{
+    position: relative;
+    justify-self: center;
+    justify-content: center;
+    background-color: var(--color);
+    width: 81.5rem;
+    height: 40rem;
+    display: flex;
+}
+.our-history{
+    position: absolute;
+    text-align: center;
+    top: 2rem;
+}
+.our-history h1{
+    color: var(--sub-text-color);
+}
+.welcome{
+    position: absolute;
+    padding: 2rem;
+    top: 2.5rem;
+}
+.welcome span{
+    font-size: 1em;
+    color: var(--text-color);
+}
+.story{
+    position: absolute;
+    padding: 2rem;
+    top: 7rem;
+}
+.story h4{
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+.story span{
+    font-size: 1em;
+    color: var(--text-color);
+}
+.values{
+    position: absolute;
+    padding: 2rem;
+    top: 17rem;
+}
+.values h4{
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+.values span{
+    font-size: 1em;
+    color: var(--text-color);
+}
+.looking{
+    position: absolute;
+    padding: 2rem;
+    top: 28rem;
+}
+.looking h4{
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+.looking span{
+    font-size: 1em;
+    color: var(--text-color);
+}
+@media (max-width: 1024px){
+    .about-container{
+        width: 96%;
+        height: 40rem;
+    }
+}
+@media (max-width: 768px){
+    .about-container{
+        top: 5rem;
+        width: 96%;
+        height: 50rem;
+    }
+    .values{
+        padding: 2rem;
+        top: 21rem;
+    }
+    .looking{
+        padding: 2rem;
+        top: 36rem;
+    }
+}
+@media (max-width: 425px){
+    .about-container{
+        top: 5rem;
+        width: 96%;
+        height: 65rem;
+    }
+    .our-history{
+        top: 1rem;
+    }
+    .welcome{
+        padding: 1rem;
+        top: 2.5rem;
+    }
+    .welcome span{
+        font-size: 0.9em;
+        color: var(--text-color);
+    }
+    .story{
+        padding: 1rem;
+        top: 9.5rem;
+    }
+    .story h4{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .story span{
+        font-size: 0.9em;
+    }
+    .values{
+        padding: 1rem;
+        top: 29rem;
+    }
+    .values h4{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .values span{
+        font-size: 0.9em; 
+    }
+    .looking{
+        padding: 1rem;
+        top: 48.5rem;
+    }
+    .looking h4{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .looking span{
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 375px){
+    .about-container{
+        top: 5rem;
+        width: 96%;
+        height: 75rem;
+    }
+    .our-history{
+        top: 1rem;
+    }
+    .welcome{
+        padding: 1rem;
+        top: 2.5rem;
+    }
+    .welcome span{
+        font-size: 0.9em;
+        color: var(--text-color);
+    }
+    .story{
+        padding: 1rem;
+        top: 11rem;
+    }
+    .story h4{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .story span{
+        font-size: 0.9em;
+    }
+    .values{
+        padding: 1rem;
+        top: 34rem;
+    }
+    .values h4{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .values span{
+        font-size: 0.9em; 
+    }
+    .looking{
+        padding: 1rem;
+        top: 57rem;
+    }
+    .looking h4{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .looking span{
+        font-size: 0.9em;
+    }
+}

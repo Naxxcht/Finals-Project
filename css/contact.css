@@ -1,0 +1,154 @@
+:root{
+    --color: #232323;
+    --text-color: #ffffff;
+    --font: "Rubik", serif;
+    --sub-text-color: #D98D11;
+    --red: #FF1500;
+    --light-bg: #605f5f;
+    --box-color: #000000;
+    --box: #160e00;
+    --inside-bg: #272827;
+}
+.contact{
+    width: 100%;
+}
+.contact-container{
+    position: relative;
+    justify-self: center;
+    justify-content: center;
+    background-color: var(--color);
+    width: 81.5rem;
+    height: 40rem;
+    display: flex;
+}
+.our-contact{
+    position: absolute;
+    text-align: center;
+    top: 2rem;
+}
+.our-contact h1{
+    color: var(--sub-text-color);
+}
+.card-body{
+    background-color: var(--light-bg);
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    padding: 1rem;
+    top: 5rem;
+    border: 2px solid var(--sub-text-color);
+    border-radius: 5%;
+}
+.text-danger {
+    color: #dc3545!important
+}
+
+a.text-danger:focus,a.text-danger:hover {
+    color: #a71d2a!important
+}
+.form-control {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    color: #495057;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    height: calc(1.5em + .75rem + 2px);
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem
+}
+.row-control label{
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+.row-control select{
+    background-color: var(--inside-bg);
+    color: var(--text-color);
+}
+.row-control input{
+    height: 1em;
+    width: 96%;
+    background-color: var(--inside-bg);
+    color: var(--text-color);
+}
+.row-control textarea{
+    width: 96%;
+    height: 6rem;
+    background-color: var(--inside-bg);
+    color: var(--text-color);
+}
+.submit-button{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.submit-button button{
+    background-color: var(--sub-text-color);
+    color: var(--text-color);
+    border-radius: 10%;
+    font-size: 1em;
+    padding: 0.5rem 2rem;
+}
+
+@media (max-width: 1024px){
+    .contact-container{
+        width: 96%;
+        height: 40rem;
+    }
+}
+@media (max-width: 768px){
+    .contact-container{
+        top: 5rem;
+        width: 96%;
+        height: 40rem;
+    }
+}
+@media (max-width: 425px){
+    .contact-container{
+        top: 5rem;
+        width: 96%;
+        height: 38rem;
+    }
+    .our-contact{
+        position: absolute;
+        text-align: center;
+        top: 1.1rem;
+    }
+    .our-contact h1{
+        font-size: 1.5em;
+    }
+    .card-body{
+        top: 4rem;
+        width:80%;
+        height: 28rem;
+    }
+    .row-control input{
+        height: 1em;
+        width: 92%;
+        background-color: var(--inside-bg);
+        color: var(--text-color);
+    }
+    .row-control textarea{
+        width: 92%;
+        height: 6rem;
+        font-size: 0.8em;
+    }
+    .row-control label{
+        margin-top: 5px;
+        font-size: 0.9em;
+        color: var(--text-color);
+    }
+    .row-control select{
+        height: 2rem;
+    }
+
+}

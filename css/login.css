@@ -1,0 +1,146 @@
+:root{
+    --color: #232323;
+    --text-color: #ffffff;
+    --font: "Rubik", serif;
+    --sub-text-color: #D98D11;
+    --red: #FF1500;
+    --light-bg: #605f5f;
+    --box-color: #000000;
+    --box: #160e00;
+    --orange: #eca707;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--font);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "Rubik", serif;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+  }
+button{
+    cursor: pointer;
+}
+.login-container{
+    position: relative;
+    width: 85rem;
+    height: 42.5rem;
+}
+.right-bg{
+    position: absolute;
+    background-color: var(--color);
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+.logo-bg{
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
+}
+.card-body{
+    position: absolute;
+    width: 33rem;
+    height: 15rem;
+    left: 4.7%;
+    top: 25%;
+}
+.form-control {
+    border: 2px solid #000000;
+    border-radius: 6px;
+    color: #495057;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 2.5rem;
+    width: 95%;
+    padding-left: 5%;
+}
+.row-control input{
+    margin-top: 1.7rem;
+}
+.signin-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.signin-button button{
+    background-color: var(--orange);
+    color: black;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 0.7rem 2rem;
+    font-size: 1em;
+    top: 2rem;
+    font-family: var(--font);
+}
+.register{
+    position: absolute;
+    display: flex;
+    left: 18%;
+    bottom: 35%;
+}
+.register span{
+    font-size: 0.7em;
+}
+.register a{
+    font-size: 0.8em;
+}
+.line1{
+    position: absolute;
+    background-color: var(--box-color);
+    width: 16rem;
+    height: 1px;
+    top: 15%;
+    left: 1%;
+}
+.line2{
+    position: absolute;
+    background-color: var(--box-color);
+    width: 16rem;
+    height: 1px;
+    top: 15%;
+    left: 29%;
+}
+.signin-text{
+    position: absolute;
+    top: 13.5%;
+    left: 20.8%;
+}
+.signin-text span{
+    font-size: 0.9em;
+}
+.pizzabro-text{
+    position: absolute;
+    left: 21.4%;
+    bottom: 20%;
+}
+.pizzabro-text span{
+    font-weight: 800;
+}
+.line3{
+    position: absolute;
+    background-color: var(--box-color);
+    width: 3rem;
+    height: 1px;
+    left: 17.5%;
+    bottom: 21.2%;
+}
+.line4{
+    position: absolute;
+    background-color: var(--box-color);
+    width: 3rem;
+    height: 1px;
+    left: 26.6%;
+    bottom: 21.2%;
+}
